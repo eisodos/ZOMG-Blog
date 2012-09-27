@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>ZOMG Clan</title>
+        <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
+        <script src="js/libs/jquery-1.6.2.min.js"></script>
+    	<script src="js/basic-jquery-slider.js"></script>
+    </head>
+    
+    <body>
+    	<!-- Navbar -->
+        <div class="nav_bar">
+        	<div class="top">
+            	<ul>
+                	<li>Login</li>
+                    <li>Contact Us</li>
+                    <li>About</li>
+                </ul>
+            </div>
+        	<div class="bottom">
+            	<img src="images/banner.png" />
+            	<ul>
+                    <li><a>Home</a></li>
+                    <li><a>News</a></li>
+                    <li><a>Reviews</a></li>
+                    <li><a>Videos</a></li>
+                    <li><a>More</a></li>
+            	</ul>
+            </div>
+        </div>
+        <div id="slider_container">
+            <div id="slider">
+                <ul class="bjqs">
+                    <li><img src="img/img1.png" /></li>
+                    <li><img src="img/img2.png" /></li>
+                    <li><img src="img/img3.png" /></li>
+                    <li><img src="img/img4.png" /></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="main_frame">
+        </div>
+        
+		<script>
+            $(document).ready(function() {
+            
+                $('#slider').bjqs({
+                    'width' : 700,
+                    'height' : 300,
+    				'animationDuration' : 700,
+					'showMarkers' : true,
+					'showControls' : false,
+					'useCaptions' : false,
+					'keyboardNav' : true,
+					'animation' : 'slide',
+					'rotationSpeed': 7000
+                });
+            
+            });
+        </script>
+    </body>
+</html>

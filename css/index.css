@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----- Body -----*/
+
+body {
+	background: #dbdbdb url(../images/checkered_pattern.png);
+	font-family: Tahoma, Geneva, sans-serif;
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*-----Misc-----*/
+
+.center {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+blockquote {
+	margin-left: 30px;
+	margin-top: -20px;
+	font-size: 10px;
+	font-style: italic;
+}
+
+p { text-align: left; }
+
+img { border: none; }
+
+/*----- Headers -----*/
+
+h1 {
+	color: #393939;
+	font-size: 24px;
+}
+
+/*----- Frames -----*/
+
+.main_frame {
+	width: 960px;
+	margin: 0px auto;
+	margin-top: 25px;
+	overflow:hidden;
+}
+
+.inner_frame {
+	width: 750px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+
+.left {
+	width: 350px;
+	font-size: 14px;
+	position: relative;
+	float: left;
+}
+
+.right {
+	width: 350px;
+	font-size: 14px;
+	position: relative;
+	float: right;
+}
+
+.clear {
+	clear: both;
+	width: 100%;
+}
+
+/*----- Tables ------*/
+#table {
+	display: table;
+}
+
+#tr  {
+	display: table-row;
+}
+
+#td {
+	display: table-cell;
+}
+
+/*----Dev-----*/
+
+.dev {
+	width: 800px;
+	margin: 0 auto;
+	color: #393939;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: right;
+}
+
+.dev a:link {
+	color: #393939;
+	text-decoration: none;
+}
+
+.dev a:visited {
+	color: #393939;
+	text-decoration: none;
+}
+
+.dev a:active {
+	color: #393939;
+	text-decoration: none;
+}
+
+.dev a:hover {
+	color: #393939;
+	text-decoration: underline;
+}
+
+
+/*-----Links-----*/
+
+a:link {
+	color: #F00;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #F00;
+	text-decoration: none;
+}
+
+a:active {
+	color: #C00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #C00;
+	text-decoration: none;
+}
